@@ -1,0 +1,1 @@
+public class Test { public static void main(String[] args) { String x = "abcdef"; String y = "abcdef"; x.concat(y); System.out.print(x); }}

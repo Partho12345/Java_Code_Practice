@@ -1,0 +1,1 @@
+public class NextPermutation { int func (int n) { int result; if (n == 2) return 5; result = func (n - 2); return result; } public static void main(String[] args) { NextPermutation obj = new NextPermutation() ; System.out.print(obj.func(900)); }}
